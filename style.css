@@ -1,0 +1,123 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Lobster", cursive;
+}
+nav {
+  display: flex;
+  height: 6vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #be4d25;
+  margin-bottom: 2px;
+
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#logo {
+  max-height: 5vh;
+}
+
+a {
+  text-decoration: none;
+  color: #d9e7ec;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.08);
+}
+
+.nav-btns {
+  display: flex;
+  gap: 2vw;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  height: 87.7vh;
+  width: 100vw;
+  background-color: pink;
+}
+
+article {
+  height: 60vh;
+  width: 30vw;
+
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 60vh;
+  width: 7vw;
+
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menu > div > img {
+  display: block;
+  height: 11vh;
+}
+
+.menu-one img {
+  width: 100%;
+}
+
+.menu-one {
+  position: relative;
+  color: #ea1118;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 60vh;
+  width: 10vw;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  gap: 0.8vh;
+
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.dishes::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.dishes img {
+  display: block;
+  height: 11vh;
+}
+
+article img {
+  width: 30vw;
+  max-height: 40vh;
+  border: none;
+}
+footer {
+  height: 6vh;
+  width: 100vw;
+  background-color: #be4d25;
+}
